@@ -65,7 +65,7 @@ The data is organized into sheets. Each sheet has a specific meaning and fields:
 """
 )
 
-llm = ChatOpenAI(model="gpt-5", api_key=os.getenv("OPENAI_API_KEY"), temperature=0)
+llm = ChatOpenAI(model="gpt-4.1", api_key=os.getenv("OPENAI_API_KEY"), temperature=0)
 
 
 # ---- State ----
